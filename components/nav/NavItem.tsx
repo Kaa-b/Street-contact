@@ -9,12 +9,7 @@ type Props = {
 const NavItem = ({ text, href, active }: Props) => {
     return (
         <Link href={href}>
-            <a
-                className={`nav__item ${active ? "active" : ""
-                    }`}
-            >
-                {text}
-            </a>
+            {text}
         </Link>
     );
 };

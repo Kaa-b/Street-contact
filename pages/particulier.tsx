@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import Navbar from 'components/nav/Navbar';
+
 export default function Particulier() {
     return (
         <>
@@ -7,6 +9,7 @@ export default function Particulier() {
                 <title>Particulier</title>
                 <meta name="description" content="Page particulier" />
             </Head>
+            <Navbar />
             <div>
                 Page Particulier
             </div>
