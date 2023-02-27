@@ -6,12 +6,12 @@ export default function Entreprise() {
     return (
         <>
             <Head>
-                <title>Entreprise</title>
-                <meta name="description" content="Page entreprise" />
+                <title>Entreprises</title>
+                <meta name="description" content="Page entreprises" />
             </Head>
             <Navbar />
             <div>
-                Page Entreprise
+                Page Entreprises
             </div>
         </>
     )

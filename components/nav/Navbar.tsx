@@ -8,7 +8,7 @@ import NavItem from "./NavItem";
 import styles from "./navbar.module.css"
 
 const MENU_LIST = [
-    { text: "Entreprise", href: "/entreprise" },
+    { text: "Entreprises", href: "/entreprise" },
     { text: "Particuliers", href: "/particulier" },
     { text: "Cadre Juridique", href: "/juridiction" },
     { text: "Formateur", href: "/formateur" },
@@ -19,17 +19,16 @@ const Navbar = () => {
     const [activeIdx, setActiveIdx] = useState(-1);
 
     return (
-        <div className={styles.container}>
-            <div className={styles.wrapper}>
+        <header className={styles.container}>
+            <nav className={styles.wrapper}>
                 <Link className={styles.logoLink} href="/">
                     <div className={styles.logoWrapper}>
-                        {/* <Image
-                                src="/static/netflix.svg"
-                                alt="Netflix logo"
-                                width="128px"
-                                height="34px"
-                            /> */}
-                        Logo
+                        <Image
+                            src="/static/logo.svg"
+                            alt="Logo"
+                            width="48"
+                            height="56"
+                        />
                     </div>
                 </Link>
                 <div className={styles.center}>
@@ -49,8 +48,8 @@ const Navbar = () => {
                 <Link href={"/contact"}>
                     Contact
                 </Link>
-            </div>
-        </div>
+            </nav>
+        </header>
     );
 };
 
