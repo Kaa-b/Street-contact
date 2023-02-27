@@ -4,81 +4,55 @@
 
 .main {
     padding-bottom: 4rem;
+    display: flex;
+    width: 100%;
 }
 
 .banner {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+    height: 650px;
+    align-items: stretch;
+    background: #141414;
+    width: 100%;
 }
 
 .heroImage {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 0px 10px 10px;
-    gap: 10px;
+    flex-shrink: 1;
 }
 
 .introContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
     padding: 156px 59px 64px;
+    flex-shrink: 3;
+    color: #FFFFFF;
     gap: 48px;
-
-    width: 840px;
-    height: 650px;
-
-    background: #141414;
 }
 
-.introHeader {
-    width: 681px;
-    height: 122px;
 
+.introHeader {
+    display: flex;
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 61px;
-
-    color: #FFFFFF;
 }
 
 .introWrapper {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     gap: 56px;
-
-    width: 681px;
-    height: 252px;
+    max-width: 681px;
 }
 
 .introDescription {
+    display: flex;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-
-    color: #FFFFFF;
-}
-
-.introButton {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px;
-    gap: 10px;
-
-    width: 152px;
-    height: 42px;
-
-    background: #680606;
-    border-radius: 4px;
 }

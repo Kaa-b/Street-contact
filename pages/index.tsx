@@ -22,8 +22,8 @@ export default function Home() {
             <Image
               src="/static/heroImg.svg"
               alt="Hero image girl fighting"
-              width="600"
-              height="650"
+              width={500}
+              height={650}
             />
           </div>
           <div className={styles.introContainer}>
@@ -33,10 +33,10 @@ export default function Home() {
 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
               </p>
-              <div className={styles.introButton}>SOME BUTTON</div>
+              <div className={styles.introButtonContainer}>
+                <button className={styles.introButton}>SOME BUTTON</button>
+              </div>
             </div>
-
-
           </div>
         </div>
       </main>
