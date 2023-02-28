@@ -19,7 +19,7 @@ const Navbar = () => {
     const [activeIdx, setActiveIdx] = useState(-1);
 
     return (
-        <header className={styles.container}>
+        <div className={styles.container}>
             <nav className={styles.wrapper}>
                 <Link className={styles.logoLink} href="/">
                     <div className={styles.logoWrapper}>
@@ -45,11 +45,11 @@ const Navbar = () => {
                         </div>
                     ))}
                 </div>
-                <Link href={"/contact"}>
+                <Link href={"/contact"} className={styles.item}>
                     Contact
                 </Link>
             </nav>
-        </header>
+        </div>
     );
 };
 
