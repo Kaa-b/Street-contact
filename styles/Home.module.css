@@ -12,7 +12,7 @@
 .banner {
     display: flex;
     flex-direction: row;
-    height: 650px;
+    height: 100%;
     align-items: stretch;
     width: 100%;
 }
@@ -24,7 +24,7 @@
 .introContainer {
     display: flex;
     flex-direction: column;
-    padding: 156px 59px 64px;
+    padding: 100px 59px 64px;
     flex-shrink: 3;
     color: var(--text-black);
     gap: 48px;
@@ -63,9 +63,8 @@
     color: var(--text-white);
 
     padding: 10px;
-
     width: 100%;
-    height: 600px;
+    height: 100%;
 
     border-bottom: 1px solid var(--background-white);
     border-top: 1px solid var(--background-white);
@@ -100,4 +99,83 @@
     position: relative;
     left: 173px;
     top: 29px;
+}
+
+.trainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 0px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.trainerPicture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3rem;
+}
+
+
+.trainerPresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 150px;
+    gap: 50px;
+}
+
+.trainerPresentationHeader {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.trainerPresentationDescription {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+
+    align-self: stretch;
+}
+
+.linksButtonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    width: 100%;
+    height: 251px;
+}
+
+.linksParticulier {
+    background: center url(../public/static/linksParticulier.svg);
+    width: 100%;
+    height: 100%;
+
+}
+
+.linksEntreprise {
+    background: center url(../public/static/linksEntreprise.svg);
+    width: 100%;
+    height: 100%;
 }

@@ -65,6 +65,33 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className={styles.trainer}>
+          <div className={styles.trainerPicture}>
+            <Image
+              src="/static/avatarTrainer.svg"
+              alt="Profile picture of the trainer"
+              width={287}
+              height={287} />
+          </div>
+          <div className={styles.trainerPresentation}>
+            <header className={styles.trainerPresentationHeader}>Découvrez votre formateur</header>
+            <p className={styles.trainerPresentationDescription}>
+              Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex.
+
+              Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+              Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            </p>
+          </div>
+        </section>
+        <section className={styles.links}>
+          <div className={styles.linksButtonWrapper}>
+            <button className={styles.linksParticulier}></button>
+          </div>
+          <div className={styles.linksButtonWrapper}>
+            <button className={styles.linksEntreprise}></button>
+          </div>
+        </section>
       </main>
     </div>
   )

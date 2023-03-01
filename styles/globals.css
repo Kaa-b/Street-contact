@@ -59,8 +59,8 @@ button:focus {
 
 :root {
   --background-black: #011627;
-  --background-white: #e8f5fe;
+  --background-white: #F9FCFF;
   --text-black: #010b14;
-  --text-white: #e8f5fe;
+  --text-white: #F9FCFF;
   --text-white-hover: #bbc7cf;
 }
