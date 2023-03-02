@@ -45,9 +45,16 @@ const Navbar = () => {
                         </div>
                     ))}
                 </div>
-                <Link href={"/contact"} className={styles.item}>
-                    Contact
-                </Link>
+                <div className={styles.contact}>
+                    <div className={styles.contactWrapper}>
+                        <p>amar31@hotmail.fr</p>
+                        <p>+33 6 84 41 73 28</p>
+                    </div>
+                    <div className={styles.verticalLine}></div>
+                    <Link href={"/contact"} className={styles.item}>
+                        Contact
+                    </Link>
+                </div>
             </nav>
         </div>
     );

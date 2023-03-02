@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
 import Navbar from 'components/nav/Navbar';
 
@@ -86,10 +87,10 @@ export default function Home() {
         </section>
         <section className={styles.links}>
           <div className={styles.linksButtonWrapper}>
-            <button className={styles.linksParticulier}></button>
+            <Link className={styles.linksParticulier} href="/particulier"></Link>
           </div>
           <div className={styles.linksButtonWrapper}>
-            <button className={styles.linksEntreprise}></button>
+            <Link className={styles.linksEntreprise} href="/entreprise"></Link>
           </div>
         </section>
       </main>
