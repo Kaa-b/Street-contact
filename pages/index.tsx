@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Navbar from 'components/nav/Navbar';
+import Footer from 'components/footer/Footer';
 
 import styles from "../styles/Home.module.css";
 
@@ -94,6 +95,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer/>
     </div>
   )
 }

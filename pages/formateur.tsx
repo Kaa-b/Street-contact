@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Navbar from 'components/nav/Navbar';
+import Footer from 'components/footer/Footer';
 
 export default function Formateur() {
     return (
@@ -10,9 +11,10 @@ export default function Formateur() {
                 <meta name="description" content="Page Formateur" />
             </Head>
             <Navbar />
-            <div>
+            <main>
                 Page Formateur
-            </div>
+            </main>
+            <Footer/>
         </>
     )
 }

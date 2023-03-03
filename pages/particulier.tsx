@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Navbar from 'components/nav/Navbar';
+import Footer from 'components/footer/Footer';
 
 export default function Particulier() {
     return (
@@ -10,9 +11,10 @@ export default function Particulier() {
                 <meta name="description" content="Page particulier" />
             </Head>
             <Navbar />
-            <div>
+            <main>
                 Page Particulier
-            </div>
+            </main>
+            <Footer/>
         </>
     )
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Navbar from 'components/nav/Navbar';
+import Footer from 'components/footer/Footer';
 
 export default function Entreprise() {
     return (
@@ -10,9 +11,10 @@ export default function Entreprise() {
                 <meta name="description" content="Page entreprises" />
             </Head>
             <Navbar />
-            <div>
+            <main>
                 Page Entreprises
-            </div>
+            </main>
+            <Footer/>
         </>
     )
 }

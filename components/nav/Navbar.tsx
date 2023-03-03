@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import cls from "classnames";
 
 import NavItem from "./NavItem";
 

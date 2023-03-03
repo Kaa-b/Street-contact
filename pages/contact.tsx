@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Navbar from 'components/nav/Navbar';
+import Footer from 'components/footer/Footer';
 
 export default function Contact() {
     return (
@@ -10,9 +11,10 @@ export default function Contact() {
                 <meta name="description" content="Contacter mon formateur" />
             </Head>
             <Navbar />
-            <div>
+            <main>
                 Page Contact
-            </div>
+            </main>
+            <Footer/>
         </>
     )
 }
