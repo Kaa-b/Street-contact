@@ -93,12 +93,8 @@
     position: relative;
     left: 0px;
     top: 57px;
-}
-
-.dataFirstIcon {
-    position: relative;
-    left: 173px;
-    top: 29px;
+    width: 100%;
+    height: 100%;
 }
 
 .trainer {

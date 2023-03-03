@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 type Props = {
     text: string
@@ -7,11 +7,11 @@ type Props = {
 }
 
 const NavItem = ({ text, href, active }: Props) => {
-    return (
-        <Link href={href}>
-            {text}
-        </Link>
-    );
+  return (
+    <Link href={href}>
+      {text}
+    </Link>
+  );
 };
 
 export default NavItem;
