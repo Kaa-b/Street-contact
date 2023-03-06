@@ -1,4 +1,3 @@
-// @ts-nocheck 
 import Head from 'next/head';
 
 import Navbar from 'components/nav/Navbar';
@@ -14,17 +13,15 @@ export default function Juridiction() {
   let count = 0;
 
   function scrollTo(id: number) {
-    // let e = getElementById(`${id}`);
-    
-    // if (e) {
-    //   e.scrollIntoView({
-    //     block: 'start',
-    //     behavior: 'smooth',
-    //     inline: 'start'
-    // });}
-    console.log('it works!');
-    console.log(count);
-    count+=1;
+    let e = document.getElementById(`${id}`);
+  
+    if (e) {
+      e.scrollIntoView({
+        block: 'start',
+        behavior: 'smooth',
+        inline: 'start'
+      });
+    }
     } 
 
   return (
