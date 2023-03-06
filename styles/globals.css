@@ -32,35 +32,14 @@ pre {
   margin: 0;
 }
 
-/* 
-button {
-  background-color: transparent;
-  background-image: none;
-  font-weight: 600;
-}
-
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-// glass-morphism 
-.glass {
-  background: hsla(0, 0%, 100%, 0.4);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border: 1px solid hsla(0, 0%, 100%, 0.2);
-}
-
-.glass:hover {
-  background: hsla(0, 0%, 100%, 0.7);
-  border: 1px solid #fff;
-}*/
 
 :root {
   --background-black: #011627;
   --background-white: #F9FCFF;
+  --background-bleuish: #e4f0fc;
   --text-black: #010b14;
   --text-white: #F9FCFF;
   --text-white-hover: #bbc7cf;
+
+  --navbarLength: 20rem;
 }

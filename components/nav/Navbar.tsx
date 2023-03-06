@@ -18,8 +18,8 @@ const Navbar = () => {
   const [activeIdx, setActiveIdx] = useState(-1);
 
   return (
-    <div className={styles.container}>
-      <nav className={styles.wrapper}>
+    <nav className={styles.container}>
+      <div className={styles.wrapper}>
         <Link className={styles.logoLink} href="/">
           <div className={styles.logoWrapper}>
             <Image
@@ -54,8 +54,8 @@ const Navbar = () => {
                         Contact
           </Link>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
