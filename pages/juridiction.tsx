@@ -22,7 +22,7 @@ export default function Juridiction() {
         inline: 'start'
       });
     }
-    } 
+  };
 
   return (
     <div className={styles.wrapper}>
@@ -34,16 +34,24 @@ export default function Juridiction() {
       <main className={styles.main}>
         <aside className={styles.sidebar}>
           {data.map((title) => {
-              return (
-                <div key={title.id.toString()}>
-                  <button  className={styles.title} onClick={() => {scrollTo(title.id)}}>{title.header}</button>
-                  {title.paragraphs.map((section) => {
-                    return (
-                      <button key={section.id.toString()} id={section.id.toString()} className={styles.subtitle} onClick={() => {scrollTo(title.id)}}>{section.paragraphHeader}</button>
-                    );
-                  })}
-              </div>);
-            })}
+            return (
+              <div key={title.id.toString()}>
+                <button className={styles.title} onClick={() => {scrollTo(title.id);}}>{title.header}</button>
+                {title.paragraphs.map((section) => {
+                  return (
+                    <button 
+                      key={section.id.toString()} 
+                      id={section.id.toString()} 
+                      className={styles.subtitle} 
+                      onClick={() => {scrollTo(title.id);}}
+                    >
+                      {section.paragraphHeader}
+                    </button>
+                  );
+                })};
+              </div>
+            );
+          })}
         </aside>
         <div className={styles.body}>
           {data.map((article) => {
