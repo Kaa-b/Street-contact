@@ -34,14 +34,14 @@ export default function Juridiction() {
           {data.map((title) => {
             return (
               <div key={title.id.toString()}>
-                <button className={styles.title} onClick={() => {scrollTo(title.id);}}>{title.header}</button>
+                <button className={styles.title} onClick={() => {scrollTo(title.id)}}>{title.header}</button>
                 {title.paragraphs.map((section) => {
                   return (
                     <button 
                       key={section.id.toString()} 
                       id={section.id.toString()} 
                       className={styles.subtitle} 
-                      onClick={() => {scrollTo(title.id);}}
+                      onClick={() => {scrollTo(title.id)}}
                     >
                       {section.paragraphHeader}
                     </button>
