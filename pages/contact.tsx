@@ -12,7 +12,7 @@ export default function Contact() {
       </Head>
       <Navbar />
       <main>
-                Page Contact
+        Page Contact
       </main>
       <Footer/>
     </>

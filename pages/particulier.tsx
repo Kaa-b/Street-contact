@@ -12,7 +12,7 @@ export default function Particulier() {
       </Head>
       <Navbar />
       <main>
-                Page Particulier
+        Page Particulier
       </main>
       <Footer/>
     </>

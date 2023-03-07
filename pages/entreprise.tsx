@@ -15,7 +15,7 @@ export default function Entreprise() {
                 
       </aside>
       <main>
-                Page Entreprises
+        Page Entreprises
       </main>
 
       <Footer/>

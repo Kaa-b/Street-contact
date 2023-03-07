@@ -1,11 +1,9 @@
 .wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-/* .main {
-
-} */
+/* .main {} */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SIDEBAR SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -22,8 +20,8 @@
 /* .subtitle {} */
 
 .body {
-    margin-left: var(--sidebar-length);
-    padding: 2rem;
+  margin-left: var(--sidebar-length);
+  padding: 2rem;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BODY SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

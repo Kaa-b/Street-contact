@@ -10,8 +10,6 @@ import data from '../data/juridiction.json';
 
 export default function Juridiction() {
 
-  let count = 0;
-
   function scrollTo(id: number) {
     let e = document.getElementById(`${id}`);
   
