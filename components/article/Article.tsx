@@ -1,3 +1,5 @@
+import styles from './article.module.css';
+
 interface Paragraph {
   id: number,
   paragraphHeader: string,
@@ -13,12 +15,12 @@ type Props = {
 const Article = (props: Props) => {
   return (
     <>
-      <div id={props.id.toString()}>{props.header}</div>
+      <div className={styles.header} id={props.id.toString()}>{props.header}</div>
       {props.paragraphs.map((section) => {
         return (
-          <div key={section.id.toString()} id={section.id.toString()}>
-            <div>{section.paragraphHeader}</div>
-            <div>{section.content}</div>
+          <div key={section.id.toString()} className={styles.sectionWrapper} id={section.id.toString()}>
+            <div className={styles.paragraphHeader}>{section.paragraphHeader}</div>
+            <div className={styles.content}>{section.content}</div>
           </div>
         );
       })}

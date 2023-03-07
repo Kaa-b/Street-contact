@@ -1,0 +1,27 @@
+.header {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    padding: 1rem;
+}
+
+.sectionWrapper {
+    padding: 1rem;
+}
+
+.paragraphHeader {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 1rem 0;
+}
+
+.content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}

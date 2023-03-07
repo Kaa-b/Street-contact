@@ -4,12 +4,12 @@
 }
 
 .body {
-    margin-left: var(--navbarLength);
+    margin-left: var(--sidebar-length);
     padding: 1px 16px;
 }
 
 .sidebar {
-  width: var(--navbarLength);
+  width: var(--sidebar-length);
   background-color: var(--background-bleuish);
   position: fixed;
   height: 100%;

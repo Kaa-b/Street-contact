@@ -41,5 +41,7 @@ pre {
   --text-white: #F9FCFF;
   --text-white-hover: #bbc7cf;
 
-  --navbarLength: 20rem;
+  --sidebar-length: 20rem;
+  --navbar-height: 4rem;
+  --footer-height: 4rem;
 }
