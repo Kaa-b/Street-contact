@@ -12,5 +12,5 @@
   width: var(--navbarLength);
   background-color: var(--background-bleuish);
   position: fixed;
-
+  height: 100%;
 }
