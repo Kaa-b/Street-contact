@@ -4,11 +4,11 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 61px;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .sectionWrapper {
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .paragraphHeader {
