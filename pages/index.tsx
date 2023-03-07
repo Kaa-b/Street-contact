@@ -30,7 +30,7 @@ export default function Home() {
             />
           </div>
           <div className={styles.introContainer}>
-            <header className={styles.introHeader}>{header.title}</header>
+            <h1 className={styles.introHeader}>{header.title}</h1>
             <div className={styles.introWrapper}>
               <p className={styles.introDescription}>{header.content}</p>
               <div className={styles.introButtonContainer}>
@@ -41,8 +41,8 @@ export default function Home() {
         </section>
         <section className={styles.data}>
           <div className={styles.dataDescription}>{data.content}</div>
-          <div className={styles.dataFightingIcon}>
-            <div className={styles.dataSecondIcon}>
+          <div className={styles.dataFightingIconWrapper}>
+            <div className={styles.dataIcon}>
               <Image
                 src="/static/fightingFigure2.svg"
                 alt="Fighting icon 2"
@@ -60,7 +60,7 @@ export default function Home() {
               height={287} />
           </div>
           <div className={styles.trainerPresentation}>
-            <header className={styles.trainerPresentationHeader}>{trainer.title}</header>
+            <h1 className={styles.trainerPresentationHeader}>{trainer.title}</h1>
             <p className={styles.trainerPresentationDescription}>{trainer.content}</p>
           </div>
         </section>

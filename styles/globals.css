@@ -2,22 +2,14 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: IBMPlexSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: IBMPlexSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
   background: var(--background-white);
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  font-weight: 500;
 }
 
 h1,
@@ -32,13 +24,35 @@ pre {
   margin: 0;
 }
 
+h1 {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+h3 {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 
 :root {
   --background-black: #011627;
-  --background-white: #F9FCFF;
+  --background-white: #f9fcff;
   --background-bleuish: #e4f0fc;
   --text-black: #010b14;
-  --text-white: #F9FCFF;
+  --text-white: #f9fcff;
   --text-white-hover: #bbc7cf;
 
   --sidebar-length: 20rem;

@@ -53,7 +53,7 @@ export default function Juridiction() {
             );
           })}
         </aside>
-        <div className={styles.body}>
+        <section className={styles.body}>
           {data.map((article) => {
             return (
               <Article 
@@ -64,7 +64,7 @@ export default function Juridiction() {
               />
             );
           })}
-        </div>
+        </section>
       </main>
       <Footer/>
     </div>

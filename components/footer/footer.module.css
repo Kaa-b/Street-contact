@@ -1,24 +1,23 @@
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.container {
     align-items: center;
-    gap: 8px;
-
-    width: 100%;
-    height: var(--footer-height);
-    z-index: 30;
-
     background: var(--background-black);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    z-index: 30;
+    
+    height: var(--footer-height);
+    width: 100%;
 }
 
-.footerWrapper {
+.wrapper {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-.footerContent {
+.content {
     color: var(--text-white);
 }

@@ -15,12 +15,12 @@ type Props = {
 const Article = (props: Props) => {
   return (
     <>
-      <div className={styles.header} id={props.id.toString()}>{props.header}</div>
+      <h1 className={styles.header} id={props.id.toString()}>{props.header}</h1>
       {props.paragraphs.map((section) => {
         return (
           <div key={section.id.toString()} className={styles.sectionWrapper} id={section.id.toString()}>
-            <div className={styles.paragraphHeader}>{section.paragraphHeader}</div>
-            <div className={styles.content}>{section.content}</div>
+            <h3 className={styles.paragraphHeader}>{section.paragraphHeader}</h3>
+            <p className={styles.content}>{section.content}</p>
           </div>
         );
       })}

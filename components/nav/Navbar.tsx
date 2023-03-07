@@ -33,25 +33,25 @@ const Navbar = () => {
         <div className={styles.center}>
           {MENU_LIST.map((menu, idx) => (
             <div
+              key={menu.text}
+              className={styles.item}
               onClick={() => {
                 setActiveIdx(idx);
                 setNavActive(false);
               }}
-              key={menu.text}
-              className={styles.item}
             >
               <NavItem active={activeIdx === idx} {...menu} />
             </div>
           ))}
         </div>
-        <div className={styles.contact}>
+        <div className={styles.contactContainer}>
           <div className={styles.contactWrapper}>
             <p>amar31@hotmail.fr</p>
             <p>+33 6 84 41 73 28</p>
           </div>
           <div className={styles.verticalLine}></div>
           <Link href={'/contact'} className={styles.item}>
-                        Contact
+            Contact
           </Link>
         </div>
       </div>

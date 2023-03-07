@@ -3,14 +3,29 @@
     flex-direction: column;
 }
 
+/* .main {
+
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SIDEBAR SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.sidebar {
+  background-color: var(--background-bleuish);
+  position: fixed;
+
+  height: 100%;
+  width: var(--sidebar-length);
+}
+
+/* .title{} */
+
+/* .subtitle {} */
+
 .body {
     margin-left: var(--sidebar-length);
     padding: 2rem;
 }
 
-.sidebar {
-  width: var(--sidebar-length);
-  background-color: var(--background-bleuish);
-  position: fixed;
-  height: 100%;
-}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BODY SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* .body {} */
