@@ -15,9 +15,27 @@
   width: var(--sidebar-length);
 }
 
-/* .title{} */
+.buttons {
+  width: 100%;
+  text-align: left;
+  height: 1.5rem;
+  border: none;
+  background-color: transparent;
+}
 
-/* .subtitle {} */
+.buttons:hover {
+  background-color: var(--background-white);
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
 
 .body {
   margin-left: var(--sidebar-length);

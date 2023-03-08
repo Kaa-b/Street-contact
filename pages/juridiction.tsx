@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import cls from "classnames";
+
 import Navbar from 'components/nav/Navbar';
 import Footer from 'components/footer/Footer';
 import Article from 'components/article/Article';
@@ -34,19 +36,19 @@ export default function Juridiction() {
           {data.map((title) => {
             return (
               <div key={title.id.toString()}>
-                <button className={styles.title} onClick={() => {scrollTo(title.id)}}>{title.header}</button>
+                <button className={cls(styles.buttons, styles.title)} onClick={() => {scrollTo(title.id)}}>{title.header}</button>
                 {title.paragraphs.map((section) => {
                   return (
                     <button 
                       key={section.id.toString()} 
                       id={section.id.toString()} 
-                      className={styles.subtitle} 
+                      className={cls(styles.buttons, styles.subtitle)} 
                       onClick={() => {scrollTo(title.id)}}
                     >
                       {section.paragraphHeader}
                     </button>
-                  );
-                })};
+                  )
+                })}
               </div>
             );
           })}
