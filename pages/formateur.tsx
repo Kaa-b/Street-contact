@@ -17,12 +17,12 @@ export default function Formateur() {
       <main>
         <section className={styles.header}>
           <div className={styles.headerPicture}>
-              <Image
-                src="/static/heroImg.jpg"
-                alt="Hero image girl fighting"
-                width={400}
-                height={550}
-              />
+            <Image
+              src="/static/heroImg.jpg"
+              alt="Hero image girl fighting"
+              width={400}
+              height={550}
+            />
           </div>
           <div className={styles.headerPresentation}>
             <p>Présentation un peu plus détaillée de Amar</p>
