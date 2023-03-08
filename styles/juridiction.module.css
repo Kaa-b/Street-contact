@@ -16,11 +16,12 @@
 }
 
 .buttons {
-  width: 100%;
-  text-align: left;
-  height: 1.5rem;
-  border: none;
   background-color: transparent;
+  border: none;
+  text-align: left;
+
+  height: 1.5rem;
+  width: 100%;
 }
 
 .buttons:hover {
@@ -28,13 +29,13 @@
 }
 
 .title {
-  font-weight: 600;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .subtitle {
-  font-weight: 400;
   font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .body {
