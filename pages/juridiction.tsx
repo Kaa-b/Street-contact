@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import cls from "classnames";
+import cls from 'classnames';
 
 import Navbar from 'components/nav/Navbar';
 import Footer from 'components/footer/Footer';
@@ -25,7 +25,7 @@ export default function Juridiction() {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.container}>
       <Head>
         <title>Juridiction</title>
         <meta name="description" content="Page cadre juridique" />
@@ -36,18 +36,23 @@ export default function Juridiction() {
           {data.map((title) => {
             return (
               <div key={title.id.toString()}>
-                <button className={cls(styles.buttons, styles.title)} onClick={() => {scrollTo(title.id)}}>{title.header}</button>
+                <button 
+                  className={cls(styles.buttons, styles.title)} 
+                  onClick={() => {scrollTo(title.id);}}
+                >
+                  {title.header}
+                </button>
                 {title.paragraphs.map((section) => {
                   return (
                     <button 
                       key={section.id.toString()} 
                       id={section.id.toString()} 
                       className={cls(styles.buttons, styles.subtitle)} 
-                      onClick={() => {scrollTo(title.id)}}
+                      onClick={() => {scrollTo(title.id);}}
                     >
                       {section.paragraphHeader}
                     </button>
-                  )
+                  );
                 })}
               </div>
             );
