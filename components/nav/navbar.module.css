@@ -38,11 +38,11 @@
 
 .center {
   align-items: center;
-  display: flex;
+  display: none;
   flex-direction: row;
   gap: 3rem;
   justify-content: center;
-  
+
   height: 100%;
   width: 100%;
 }
@@ -69,6 +69,37 @@
 
 .verticalLine {
   border-left: 1px solid var(--text-white);
-  
+  display: none;
+
   height: 50%;
+}
+
+.item {
+  display: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MENU ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.menuWrapper {
+  display: flex;
+  /* Filter is the same color as --text-white*/
+  filter: invert(100%) sepia(44%) saturate(827%) hue-rotate(177deg) brightness(100%) contrast(105%);
+}
+
+@media (min-width: 1024px) {
+  .center {
+    display: flex;
+  }
+
+  .verticalLine {
+    display: flex;
+  }
+
+  .item {
+    display: flex;
+  }
+
+  .menuWrapper {
+    display: none;
+  }
 }

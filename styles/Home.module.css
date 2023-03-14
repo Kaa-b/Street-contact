@@ -63,7 +63,6 @@
   border-top: 1px solid var(--background-white);
   color: var(--text-white);
   display: flex;
-  padding: 10px;
 
   height: 100%;
   width: 100%;
@@ -156,7 +155,7 @@
 }
 
 .linksButtonWrapper:hover {
-  padding: 1px;
+  padding: 0.1rem;
   opacity: 1;
 }
 

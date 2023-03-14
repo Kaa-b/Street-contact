@@ -54,6 +54,14 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
+        <div className={styles.menuWrapper}>
+            <Image
+              src="/static/menu.svg"
+              alt="menu icon"
+              width="30"
+              height="30"
+           />
+          </div>
       </div>
     </nav>
   );
